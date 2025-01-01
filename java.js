@@ -39,7 +39,7 @@ const winner = () =>{
 
     if (pat1val != "" && pat2val != "" && pat3val != ""){
         if (pat1val === pat2val && pat2val === pat3val){
-            console.log("Winner");
+            alert("Winner");
         }
     }
 }
